@@ -1,5 +1,7 @@
-//string interplotation=> use of bacticks(``)
-
+//string interpolation=> use of bacticks(``)
+let naam="amna"
+let age=12
+console.log(`my name is ${naam} and age is ${age}`)
 //string declaration
 let name="amna"
 
