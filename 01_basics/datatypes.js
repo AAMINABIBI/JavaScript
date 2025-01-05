@@ -65,3 +65,33 @@ console.log(null>0);
 
 //=== strict check =>check datatype
 consol.log("2"===1)
+
+
+//**************************daatypes summary
+
+
+//Datatypes are classified on tha basis of memory
+//primitive(value based)
+//7 Numeber,Symbol,Booloean,Null,Undefined,String
+
+const id=Symbol(123)
+const anotheeID=Symbol(123)
+console.log(id===anotheeID)//return false as symbol always return a unique value
+//Non_Primitive(refernce based)
+//Array,Object,Functions
+
+const myArr=["111","2222","333"]
+const myobj={
+    //key:value pair
+    name:"amma",
+    age:13
+}
+
+
+const myFunc=function(){
+
+}
+
+const type=typeof(myArr)//to check the type of any variable
+//type of null is always object
+//type of non-primitive datatype is mostly object
