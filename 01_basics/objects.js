@@ -75,3 +75,14 @@ console.log(userArray[1].key)
 //object.keys()==>ojets to get all the keys of obect
 //object.values()==>ojets to get all the values of obect
 
+//*****************************object destructuring************************8 */
+
+
+const course={
+    id:'123',
+    name:'abc',
+    price:'009'
+}
+
+const {price:coursePrice}=course
+console.log(coursePrice)
