@@ -36,3 +36,19 @@ console.log(calculateCadPrice(200,4,455,453,))
 //arrow fuction
 //this keyword
 
+
+
+
+
+//++++++++++++IIFE(Immediately Inviked Finction Expressions)
+//(Function Defination)(Function executiion);
+ (function chai(){
+console.log("Chai Ready")
+ })();
+
+ //through array
+ (()=>{
+console.log(`arrow function printed`)
+ })();
+
+ //pass the parameters i second bracket
