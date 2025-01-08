@@ -1,7 +1,7 @@
 if(true){
 
 }
-else if()
+else if(true)
 {
 
 }
